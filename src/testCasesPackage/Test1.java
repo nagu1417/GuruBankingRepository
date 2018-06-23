@@ -47,6 +47,7 @@ public class Test1 extends BaseClass1
 	if(ITestResult.FAILURE==itr.getStatus())  
 	{
 		ut.takeascreenshot(driver, itr.getName());
+		System.out.println("Screenshot taken");
 	}
   }
 }
